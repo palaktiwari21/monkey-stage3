@@ -64,7 +64,7 @@ var players=[];
    if (index === monkey.index){
      
      camera.position.x = displayWidth/2;
-     camera.position.y = monkey[index-1].y
+     camera.position.y = players[index-1].y
    
   
   }
